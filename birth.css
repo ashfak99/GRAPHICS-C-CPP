@@ -1,0 +1,16 @@
+
+
+head{
+    border-image: fill;
+    image-orientation: initial;
+}
+body{
+    border-image: fill;
+    image-orientation: initial;
+    background-image: url("C:\Users\aliak\ashggh\Screenshot_2023-04-12-14-08-50-896_com.gallery.player.jpg");
+    color: blue;
+    background-color: azure;
+    background-position: 0%;
+    border-image-outset: 0cqmin;
+    
+}

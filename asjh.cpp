@@ -1,0 +1,35 @@
+#include<stdio.h>
+#include<conio.h>
+#include<graphics.h>
+int main(int argc, char const *argv[])
+{
+    int gd=DETECT,gm,i;
+    initgraph(&gd,&gm,"");
+    for(i=0;i<2000;i++)
+    {
+    ellipse(150,70+i,0,180,50,70);
+    line(100,70+i,100,280+i);
+    line(200,70+i,200,280+i);
+    line(100,280+i,135,350+i);
+    line(200,280+i,165,350+i);
+    ellipse(150,350+i,180,360,15,20);
+    line(100,150+i,25,200+i);
+    line(200,150+i,275,200+i);
+    line(25,200+i,25,240+i);
+    line(25,240+i,70+i,210+i);
+    line(70,210+i,100,210+i);
+    line(275,200+i,275,240+i);
+    line(275,240+i,225,220+i);
+    line(225,220+i,200,220+i);
+    line(110,300+i,75,330+i);
+    line(75,330+i,75,350+i);
+    line(75,350+i,135,350+i);
+    line(190,300+i,235,330+i);
+    line(235,330+i,235,350+i);
+    line(235,350+i,185,350+i);
+    delay(30);
+    cleardevice();
+    }
+    getch();
+    closegraph();
+}
